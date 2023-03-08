@@ -253,7 +253,7 @@ Resources:
     DependsOn:
       - PetStoreAPISAMCodeBuildProject
     Properties:
-      Name: petstore-api-codepipeline
+      Name: petstore-api-pipeline
       RoleArn:
         Fn::GetAtt: [ CodePipelineTrustRole, Arn ]
       ArtifactStore:
